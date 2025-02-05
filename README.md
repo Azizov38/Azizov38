@@ -51,8 +51,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Azizov38/Azizov38/output/snake.svg" alt="Snake animation" />
-![Snake animation](https://github.com/Azizov38/Azizov38/blob/output/snake.svg)
+
 
 ###
 
