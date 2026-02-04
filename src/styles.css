@@ -238,6 +238,31 @@ label {
   color: var(--muted);
 }
 
+.section {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.section-header h3 {
+  margin: 0;
+}
+
+.section-header span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 select,
 input,
 textarea {
@@ -358,6 +383,26 @@ button.ghost {
   padding: 10px 12px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pagination-info {
+  display: flex;
+  gap: 16px;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .tabs {
