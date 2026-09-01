@@ -55,8 +55,6 @@
 
 ###
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/Azizov38/count.svg?"  />
-</div>
+
 
 ###
